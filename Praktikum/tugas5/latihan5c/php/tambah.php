@@ -33,18 +33,18 @@ if (isset($_POST['tambah'])) {
         </li>
         <li>
             <label for="price">Price</label><br>
-            <input type="price" name="price" id="price" required><br><br>
+            <input type="text" name="price" id="price" required><br><br>
         </li>
         <li>
-            <label for="categori">categori</label><br>
-            <input type="categori" name="categori" id="categori" required><br><br>
+            <label for="category">Category</label><br>
+            <input type="category" name="category" id="category" required><br><br>
         </li>
         
+
         <br>
         <button type="submit" name="tambah">Tambah Data!</button>
         <button type="submit">
             <a href="../index.php" style="text-decoration: none; color: black;">Kembali</a>
-            
         </button>
     </ul>
-</form>
+    </form>

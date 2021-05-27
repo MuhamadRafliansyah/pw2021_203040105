@@ -36,7 +36,7 @@ if (isset($_POST['tambah'])) {
             <input type="text" name="price" id="price" required><br><br>
         </li>
         <li>
-            <label for="category">category</label><br>
+            <label for="category">Category</label><br>
             <input type="category" name="category" id="category" required><br><br>
         </li>
         

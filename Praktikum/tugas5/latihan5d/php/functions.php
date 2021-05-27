@@ -46,29 +46,28 @@ function hapus($id) {
 	return mysqli_affected_rows($conn);
 }
 
-function ubah($data)
-{
+function ubah($data) {
     $conn = koneksi();
+    $id = htmlspecialchars($data['id']);
     $img = htmlspecialchars($data['img']);
     $nama = htmlspecialchars($data['nama']);
     $description = htmlspecialchars($data['description']);
     $price = htmlspecialchars($data['price']);
     $categori = htmlspecialchars($data['categori']);
 
-    $query = "UPDATE otomotif
+$query = "UPDATE otomotif
             SET
-            img = '$img'
-            nama = '$nama'
-            descriptions = '$descriptions,
-            price = '$price'
-            categori = '$categori'
+            img = '$img',
+            nama = '$nama',
+            description = '$description',
+            price = '$price',
+            categori = '$categori',
             WHERE id = '$id'
             ";
+    mysqli_query($conn,$query);
 
-        mysqli_query($conn, $query);
-
-        return mysqli_affected_rows($conn);
+    return mysqli_affected_rows($conn);
     
 }
-?>
 
+?>

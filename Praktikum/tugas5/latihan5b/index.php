@@ -17,7 +17,7 @@ SHIFT Kamis 08:00 - 09:00
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Latihan5b</title>
+    <title>Latihan5a</title>
 </head>
 <body>
 <div class="container">
