@@ -1,0 +1,23 @@
+img {
+    max-width: 100px;
+}
+.table {
+        width:100px;
+        padding: 10px;
+        font-family: arial;
+        text-align: center;
+        }
+    th {
+        background-color: black;
+        color: white;
+        }
+    .ubah {
+        background-color: black;
+        color: white;
+    }
+    .hapus {
+        background-color: black;
+        color:white;
+    }
+    
+    
