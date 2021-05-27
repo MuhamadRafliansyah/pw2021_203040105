@@ -8,12 +8,12 @@ $otomotif = query("SELECT * FROM otomotif");
 
 if (isset($_GET['cari'])) {
         $keyword = $_GET['keyword'];
-        $novel= query("SELECT * FROM otomotif WHERE
+        $otomotif= query("SELECT * FROM otomotif WHERE
             nama LIKE '%$keyword%' OR
             price LIKE '%$keyword%' OR
             categori LIKE '%$keyword%' ");
 } else {
-    $novel = query("SELECT * FROM otomotif");
+    $otomotif = query("SELECT * FROM otomotif");
 
 }
 

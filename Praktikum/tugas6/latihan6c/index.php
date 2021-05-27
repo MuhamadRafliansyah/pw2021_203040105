@@ -17,7 +17,7 @@ SHIFT Kamis 08:00 - 09:00
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Latihan6b</title>
+    <title>Latihan6c</title>
 </head>
 <body>
                 <a href="php/login.php">
